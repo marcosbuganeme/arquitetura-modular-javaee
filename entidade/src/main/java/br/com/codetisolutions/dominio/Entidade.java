@@ -26,7 +26,22 @@ import java.io.Serializable;
  */
 public interface Entidade extends Serializable {
 
+	/**
+	 * Método responsável por capturar o ID do registro.
+	 *
+	 * @author marcosbuganeme
+	 *
+	 * @return <i>identificador (id) do registro</i>
+	 */
 	Serializable getIdentificador();
 
+	/**
+	 * Método responsável por verificar se um determinado registro é novo.
+	 *
+	 * @author marcosbuganeme
+	 *
+	 * @return <i>{ TRUE, se o objeto possuir id nulo } <br>
+	 *         { FALSE, se o objeto <b>não</b> possuir id nulo }</i>.
+	 */
 	boolean isNovoRegistro();
 }
