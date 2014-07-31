@@ -1,4 +1,4 @@
-package br.com.codetisolutions.negocio;
+package br.com.codetisolutions.arquitetura.negocio;
 
 import java.io.Serializable;
 import java.util.Collection;
