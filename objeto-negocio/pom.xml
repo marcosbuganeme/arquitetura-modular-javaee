@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+
+		<groupId>br.com.4codetisolutions.arquitetura</groupId>
+
+		<artifactId>arquitetura-java</artifactId>
+
+		<version>0.0.1-SNAPSHOT</version>
+
+	</parent>
+
+	<artifactId>objeto-negocio</artifactId>
+
+	<name>objeto-negocio</name>
+
+	<description>Projeto modular responsável pela validação das regras de negócio.</description>
+
+	<build>
+
+		<finalName>objeto-negocio</finalName>
+
+	</build>
+
+</project>

@@ -40,6 +40,7 @@
 		<module>entidade</module>
 
 		<module>persistencia</module>
+		<module>objeto-negocio</module>
 	</modules>
 
 </project>
