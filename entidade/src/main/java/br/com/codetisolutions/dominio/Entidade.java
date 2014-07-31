@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package br.com.codetisolutions.dominio;
+
+import java.io.Serializable;
+
+/**
+ * <p>
+ * <b>Organização:</b> 4code TI Solutions
+ * </p>
+ *
+ * <p>
+ * <b>Título:</b> Entidade.java
+ * </p>
+ *
+ * <p>
+ * <b>Descrição:</b>
+ * </p>
+ *
+ * Data de criação: 31/07/2014
+ *
+ * @author marcosbuganeme
+ *
+ * @version 1.0.0
+ */
+public interface Entidade extends Serializable {
+
+	Serializable getIdentificador();
+
+	boolean isNovoRegistro();
+}

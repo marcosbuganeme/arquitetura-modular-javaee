@@ -35,4 +35,10 @@
 
 	</developers>
 
+	<modules>
+	
+		<module>entidade</module>
+		
+	</modules>
+
 </project>
