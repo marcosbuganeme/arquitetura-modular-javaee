@@ -21,6 +21,9 @@ import br.com.codetisolutions.dominio.Entidade;
  * Data de criação: 31/07/2014
  *
  * @author marcosbuganeme
+ * 
+ * @param <E>
+ *            - Entidade que será manipulada pela classe concreta.
  *
  * @version 1.0.0
  */
