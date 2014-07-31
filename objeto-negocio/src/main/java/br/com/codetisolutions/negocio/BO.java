@@ -1,5 +1,7 @@
 package br.com.codetisolutions.negocio;
 
+import br.com.codetisolutions.dominio.Entidade;
+
 /**
  * <p>
  * <b>Organização:</b> 4code TI Solutions
@@ -16,9 +18,12 @@ package br.com.codetisolutions.negocio;
  * Data de criação: 31/07/2014
  *
  * @author marcosbuganeme
+ * 
+ * @param <E>
+ *            - Entidade que será manipulada pela classe concreta.
  *
  * @version 1.0.0
  */
-public class BO {
+public class BO<E extends Entidade> {
 
 }
