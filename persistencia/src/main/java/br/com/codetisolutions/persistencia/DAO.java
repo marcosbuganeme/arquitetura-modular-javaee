@@ -1,5 +1,10 @@
 package br.com.codetisolutions.persistencia;
 
+import java.io.Serializable;
+import java.util.Collection;
+
+import br.com.codetisolutions.dominio.Entidade;
+
 /**
  * <p>
  * <b>Organização:</b> 4code TI Solutions
@@ -19,7 +24,7 @@ package br.com.codetisolutions.persistencia;
  *
  * @version 1.0.0
  */
-public interface DAO {
+public interface DAO<E extends Entidade> {
 
 	/**
 	 * Método responsável por buscar por uma entidade através de seu identificador único.
