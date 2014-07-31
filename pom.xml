@@ -38,7 +38,8 @@
 	<modules>
 	
 		<module>entidade</module>
-		
+
+		<module>persistencia</module>
 	</modules>
 
 </project>
