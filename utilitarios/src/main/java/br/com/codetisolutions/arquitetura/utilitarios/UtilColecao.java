@@ -6,7 +6,7 @@ package br.com.codetisolutions.arquitetura.utilitarios;
  * </p>
  *
  * <p>
- * <b>Título:</b> UtilObjeto.java
+ * <b>Título:</b> UtilColecao.java
  * </p>
  *
  * <p>
@@ -19,6 +19,6 @@ package br.com.codetisolutions.arquitetura.utilitarios;
  *
  * @version 1.0.0
  */
-public class UtilObjeto {
+public class UtilColecao {
 
 }
