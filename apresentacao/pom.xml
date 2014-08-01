@@ -25,4 +25,29 @@
 
 	</build>
 
+	<dependencies>
+
+		<dependency>
+
+			<groupId>br.com.4codetisolutions.arquitetura</groupId>
+
+			<artifactId>entidade</artifactId>
+
+			<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>br.com.4codetisolutions.arquitetura</groupId>
+
+			<artifactId>servico</artifactId>
+
+			<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
+
+	</dependencies>
+
+
 </project>
