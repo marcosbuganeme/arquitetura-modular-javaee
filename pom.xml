@@ -43,6 +43,7 @@
 		<module>objeto-negocio</module>
 		<module>servico</module>
 		<module>apresentacao</module>
+		<module>pacote-recursos</module>
 	</modules>
 
 </project>
