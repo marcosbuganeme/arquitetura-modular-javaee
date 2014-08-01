@@ -1,4 +1,4 @@
-package br.com.codetisolutions.persistencia;
+package br.com.codetisolutions.arquitetura.persistencia;
 
 import java.io.Serializable;
 import java.util.Collection;

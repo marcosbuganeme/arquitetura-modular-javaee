@@ -1,7 +1,7 @@
 /**
  * 
  */
-package br.com.codetisolutions.dominio;
+package br.com.codetisolutions.arquitetura.dominio;
 
 import java.io.Serializable;
 
