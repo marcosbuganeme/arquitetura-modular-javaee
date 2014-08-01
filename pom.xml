@@ -42,6 +42,7 @@
 		<module>persistencia</module>
 		<module>objeto-negocio</module>
 		<module>servico</module>
+		<module>apresentacao</module>
 	</modules>
 
 </project>
