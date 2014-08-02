@@ -41,6 +41,16 @@
 
 		</dependency>
 
+		<dependency>
+
+			<groupId>br.com.4codetisolutions.arquitetura</groupId>
+
+			<artifactId>utilitarios</artifactId>
+
+			<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
+
 	</dependencies>
 
 	<build>

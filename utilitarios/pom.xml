@@ -19,6 +19,30 @@
 
 	<description>Projeto utilitário para auxiliar na padronização do código e omitir a redundância do código.</description>
 
+	<dependencies>
+
+		<dependency>
+
+			<groupId>br.com.4codetisolutions.arquitetura</groupId>
+
+			<artifactId>validacao</artifactId>
+
+			<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>commons-beanutils</groupId>
+
+			<artifactId>commons-beanutils</artifactId>
+
+			<version>1.9.2</version>
+
+		</dependency>
+
+	</dependencies>
+
 	<build>
 
 		<finalName>utilitarios</finalName>

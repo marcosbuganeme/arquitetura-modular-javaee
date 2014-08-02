@@ -8,6 +8,7 @@ import java.util.Map;
 
 import br.com.codetisolutions.arquitetura.dominio.Entidade;
 import br.com.codetisolutions.arquitetura.persistencia.DAO;
+import br.com.codetisolutions.arquitetura.utilitarios.UtilValidacao;
 
 /**
  * <p>
