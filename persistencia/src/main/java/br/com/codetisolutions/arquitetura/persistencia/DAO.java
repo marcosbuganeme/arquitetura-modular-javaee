@@ -3,7 +3,7 @@ package br.com.codetisolutions.arquitetura.persistencia;
 import java.io.Serializable;
 import java.util.Collection;
 
-import br.com.codetisolutions.dominio.Entidade;
+import br.com.codetisolutions.arquitetura.dominio.Entidade;
 
 /**
  * <p>

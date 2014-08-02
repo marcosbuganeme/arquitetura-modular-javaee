@@ -1,11 +1,13 @@
 package br.com.codetisolutions.arquitetura.negocio;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.Map;
 
-import br.com.codetisolutions.dominio.Entidade;
-import br.com.codetisolutions.persistencia.DAO;
+import br.com.codetisolutions.arquitetura.dominio.Entidade;
+import br.com.codetisolutions.arquitetura.persistencia.DAO;
 
 /**
  * <p>

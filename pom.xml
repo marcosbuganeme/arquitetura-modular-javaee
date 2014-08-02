@@ -45,6 +45,7 @@
 		<module>apresentacao</module>
 		<module>pacote-recursos</module>
 		<module>utilitarios</module>
+		<module>validacao</module>
 	</modules>
 
 </project>

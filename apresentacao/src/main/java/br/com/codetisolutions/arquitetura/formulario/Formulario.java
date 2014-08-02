@@ -1,5 +1,7 @@
 package br.com.codetisolutions.arquitetura.formulario;
 
+import br.com.codetisolutions.arquitetura.dominio.Entidade;
+
 /**
  * <p>
  * <b>Organização:</b> 4code TI Solutions
