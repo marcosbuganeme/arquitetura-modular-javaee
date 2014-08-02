@@ -19,12 +19,6 @@
 
 	<description>Artefato pertecente a arquitetura modular que encapsula as funções de persistencia e delega as camadas responsáveis, tornando-o o código totalmente desacoplado e livre de tecnologia.</description>
 
-	<build>
-
-		<finalName>apresentacao</finalName>
-
-	</build>
-
 	<dependencies>
 
 		<dependency>
@@ -68,5 +62,11 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+
+		<finalName>apresentacao</finalName>
+
+	</build>
 
 </project>

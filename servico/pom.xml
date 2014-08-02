@@ -19,12 +19,6 @@
 
 	<description>Projeto modular responsável pelas regras de negócio específicas do caso de uso.</description>
 
-	<build>
-
-		<finalName>servico</finalName>
-
-	</build>
-
 	<dependencies>
 
 		<dependency>
@@ -48,5 +42,11 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+
+		<finalName>servico</finalName>
+
+	</build>
 
 </project>

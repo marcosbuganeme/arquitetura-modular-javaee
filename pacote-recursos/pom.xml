@@ -10,6 +10,7 @@
 		<artifactId>arquitetura-java</artifactId>
 
 		<version>0.0.1-SNAPSHOT</version>
+
 	</parent>
 
 	<artifactId>pacote-recursos</artifactId>

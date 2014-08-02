@@ -21,7 +21,7 @@
 
 			<organization>4code ti solutions</organization>
 
-			<organizationUrl>https://www.facebook.com/4codeti</organizationUrl>
+			<organizationUrl>https://www.facebook.com/4codetisolutions</organizationUrl>
 
 			<id>marcosbuganeme</id>
 
@@ -36,16 +36,29 @@
 	</developers>
 
 	<modules>
-	
+
 		<module>entidade</module>
 
 		<module>persistencia</module>
+
 		<module>objeto-negocio</module>
+
 		<module>servico</module>
+
 		<module>apresentacao</module>
+
 		<module>pacote-recursos</module>
+
 		<module>utilitarios</module>
+
 		<module>validacao</module>
+
 	</modules>
+
+	<build>
+
+		<finalName>arquitetura-java</finalName>
+
+	</build>
 
 </project>

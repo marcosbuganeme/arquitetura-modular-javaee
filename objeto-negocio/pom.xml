@@ -19,12 +19,6 @@
 
 	<description>Projeto modular responsável pela validação das regras de negócio.</description>
 
-	<build>
-
-		<finalName>objeto-negocio</finalName>
-
-	</build>
-
 	<dependencies>
 
 		<dependency>
@@ -48,5 +42,11 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+
+		<finalName>objeto-negocio</finalName>
+
+	</build>
 
 </project>

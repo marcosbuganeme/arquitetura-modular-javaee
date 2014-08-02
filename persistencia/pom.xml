@@ -19,12 +19,6 @@
 
 	<description>Projeto contêm uma interface que provê funções pré definidas de acesso ao banco de dados.</description>
 
-	<build>
-
-		<finalName>persistencia</finalName>
-
-	</build>
-
 	<dependencies>
 
 		<dependency>
@@ -38,5 +32,11 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+
+		<finalName>persistencia</finalName>
+
+	</build>
 
 </project>
