@@ -1,0 +1,5 @@
+br\com\codetisolutions\arquitetura\validacao\Validacao.class
+br\com\codetisolutions\arquitetura\enuns\EnumEscopoValidacao.class
+br\com\codetisolutions\arquitetura\builder\ConstrucaoMapaPropriedades.class
+br\com\codetisolutions\arquitetura\annotation\Validadores.class
+br\com\codetisolutions\arquitetura\annotation\Validador.class

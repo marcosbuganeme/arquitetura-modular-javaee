@@ -4,7 +4,10 @@ import java.io.Serializable;
 import java.util.Collection;
 
 import br.com.codetisolutions.arquitetura.dominio.Entidade;
+import br.com.codetisolutions.arquitetura.enuns.EnumEscopoValidacao;
+import br.com.codetisolutions.arquitetura.excecoes.ValidacaoException;
 import br.com.codetisolutions.arquitetura.negocio.BO;
+import br.com.codetisolutions.arquitetura.utilitarios.UtilValidacao;
 
 /**
  * <p>

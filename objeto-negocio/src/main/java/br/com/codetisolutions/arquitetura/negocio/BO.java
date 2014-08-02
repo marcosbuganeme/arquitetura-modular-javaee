@@ -7,6 +7,10 @@ import java.util.Iterator;
 import java.util.Map;
 
 import br.com.codetisolutions.arquitetura.dominio.Entidade;
+import br.com.codetisolutions.arquitetura.enuns.EnumEscopoValidacao;
+import br.com.codetisolutions.arquitetura.excecoes.RegistroJaExisteException;
+import br.com.codetisolutions.arquitetura.excecoes.RegistroNaoExisteException;
+import br.com.codetisolutions.arquitetura.excecoes.ValidacaoException;
 import br.com.codetisolutions.arquitetura.persistencia.DAO;
 import br.com.codetisolutions.arquitetura.utilitarios.UtilValidacao;
 
@@ -51,8 +55,6 @@ public abstract class BO<E extends Entidade> implements Serializable {
 
 	/**
 	 * Método responsável por capturar o valor de <code>DAO</code>
-	 *
-	 * @author marcosbuganeme
 	 *
 	 * @return <i>retorna o atributo de dao</i>.
 	 */
@@ -306,4 +308,20 @@ public abstract class BO<E extends Entidade> implements Serializable {
 
 		return objeto != null;
 	}
+
+	/**
+	 * Método responsável por capturar o valor de <code>UtilValidacao</code>
+	 *
+	 * @return <i>retorna o atributo de utilValidacao</i>.
+	 */
+	public UtilValidacao<E> getUtilValidacao() {
+
+		if (!this.isReferenciaMemoria(this.utilValidacao)) {
+
+			this.utilValidacao = new UtilValidacao<E>();
+		}
+
+		return utilValidacao;
+	}
+
 }

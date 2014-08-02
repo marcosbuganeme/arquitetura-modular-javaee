@@ -12,6 +12,7 @@ import br.com.codetisolutions.arquitetura.annotation.Validador;
 import br.com.codetisolutions.arquitetura.annotation.Validadores;
 import br.com.codetisolutions.arquitetura.dominio.Entidade;
 import br.com.codetisolutions.arquitetura.enuns.EnumEscopoValidacao;
+import br.com.codetisolutions.arquitetura.excecoes.ValidacaoException;
 import br.com.codetisolutions.arquitetura.validacao.Validacao;
 
 /**
@@ -36,6 +37,7 @@ import br.com.codetisolutions.arquitetura.validacao.Validacao;
  *
  * @version 1.0.0
  */
+@SuppressWarnings("unchecked")
 public class UtilValidacao<E extends Entidade> {
 
 	/**

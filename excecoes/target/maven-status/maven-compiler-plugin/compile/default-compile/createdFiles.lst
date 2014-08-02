@@ -1,0 +1,4 @@
+br\com\codetisolutions\arquitetura\excecoes\ValidacaoException.class
+br\com\codetisolutions\arquitetura\excecoes\NegocioException.class
+br\com\codetisolutions\arquitetura\excecoes\RegistroJaExisteException.class
+br\com\codetisolutions\arquitetura\excecoes\RegistroNaoExisteException.class

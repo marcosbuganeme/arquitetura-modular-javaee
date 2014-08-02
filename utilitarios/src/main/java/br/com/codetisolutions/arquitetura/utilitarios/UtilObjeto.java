@@ -25,6 +25,7 @@ import java.util.Map;
  *
  * @version 1.0.0
  */
+@SuppressWarnings("unchecked")
 public class UtilObjeto {
 
 	/**
