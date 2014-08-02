@@ -33,6 +33,16 @@
 
 		<dependency>
 
+			<groupId>br.com.4codetisolutions.arquitetura</groupId>
+
+			<artifactId>excecoes</artifactId>
+
+			<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
+
+		<dependency>
+
 			<groupId>commons-beanutils</groupId>
 
 			<artifactId>commons-beanutils</artifactId>

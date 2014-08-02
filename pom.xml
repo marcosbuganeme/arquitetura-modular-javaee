@@ -53,6 +53,7 @@
 
 		<module>validacao</module>
 
+		<module>excecoes</module>
 	</modules>
 
 	<build>
