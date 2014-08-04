@@ -59,6 +59,13 @@ public abstract class Service<E extends Entidade, B extends BO<E>> {
 	private UtilValidacao<E> utilValidacao;
 
 	/**
+	 * Retorna o valor do atributo <code>mensagemInserirSucesso</code>
+	 *
+	 * @return <code>String</code>
+	 */
+	protected abstract BO<E> getBO();
+
+	/**
 	 * Método responsável por validar as propriedades obrigatórias de um objeto parametrizado.
 	 *
 	 * @author marcosbuganeme
@@ -242,28 +249,6 @@ public abstract class Service<E extends Entidade, B extends BO<E>> {
 	 *
 	 * @return <code>String</code>
 	 */
-	protected abstract BO<E> getBO();
-
-	/**
-	 * Retorna o valor do atributo <code>utilValidacao</code>
-	 *
-	 * @return <code>UtilValidacao<E></code>
-	 */
-	public UtilValidacao<E> getUtilValidacao() {
-
-		if (this.utilValidacao == null) {
-
-			this.utilValidacao = new UtilValidacao<E>();
-		}
-
-		return this.utilValidacao;
-	}
-
-	/**
-	 * Retorna o valor do atributo <code>mensagemInserirSucesso</code>
-	 *
-	 * @return <code>String</code>
-	 */
 	public static final String getMensagemInserirSucesso() {
 
 		return Service.MENSAGEM_INSERIR_SUCESSO;
@@ -317,5 +302,20 @@ public abstract class Service<E extends Entidade, B extends BO<E>> {
 	public static final String getMensagemRemoverTodosSucesso() {
 
 		return Service.MENSAGEM_REMOVER_TODOS_SUCESSO;
+	}
+
+	/**
+	 * Retorna o valor do atributo <code>utilValidacao</code>
+	 *
+	 * @return <code>UtilValidacao<E></code>
+	 */
+	public UtilValidacao<E> getUtilValidacao() {
+
+		if (this.utilValidacao == null) {
+
+			this.utilValidacao = new UtilValidacao<E>();
+		}
+
+		return this.utilValidacao;
 	}
 }
