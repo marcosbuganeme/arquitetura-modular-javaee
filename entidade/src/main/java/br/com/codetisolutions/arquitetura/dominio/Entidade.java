@@ -15,7 +15,7 @@ import java.io.Serializable;
  * </p>
  *
  * <p>
- * <b>Descrição:</b>
+ * <b>Descrição:</b> Interface pai de todas as entidades.
  * </p>
  *
  * Data de criação: 31/07/2014
