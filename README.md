@@ -14,4 +14,4 @@ telefones:
 
 Breve descrição da arquitetura:
 
-Arquitetura feita sob medida para encapsular funções e desacoplar o código regido sob a plataforma Java EE.
+Arquitetura feita sob medida para encapsular funções e desacoplar o código regido sob a plataforma Java.
