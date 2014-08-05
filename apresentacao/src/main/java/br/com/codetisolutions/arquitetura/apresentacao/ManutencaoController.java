@@ -51,12 +51,12 @@ public abstract class ManutencaoController<E extends Entidade> extends ConsultaC
 	 *
 	 * @author marcosbuganeme
 	 *
-	 * @param e
+	 * @param excecao
 	 *            - exceção que será lançada.
 	 */
-	private void exibirMensagemExcecaoTela(final Exception e) {
+	private void exibirMensagemExcecaoTela(final Exception excecao) {
 
-		this.exibirMensagemNaTela(this.getMessages(e.getMessage()));
+		this.exibirMensagemNaTela(excecao.getMessage());
 	}
 
 	/**
@@ -170,7 +170,7 @@ public abstract class ManutencaoController<E extends Entidade> extends ConsultaC
 
 		try {
 
-			final String mensagemRemoverTodos = this.getMessage(this.getService().removerTodos(this.getFormulario().getColecaoEntidades()));
+			final String mensagemRemoverTodos = this.getService().removerTodos(this.getFormulario().getColecaoEntidades());
 
 			this.exibirMensagemNaTela(mensagemRemoverTodos);
 
