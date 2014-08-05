@@ -38,7 +38,7 @@
 				<role>arquiteto de software</role>
 
 			</roles>
-			
+
 			<timezone>-3</timezone>
 
 		</developer>
@@ -75,9 +75,10 @@
 
 		<module>excecoes</module>
 
-		<module>arquitetura-jssf</module>
 		<module>arquitetura-jsf</module>
+
 		<module>arquitetura-hibernate</module>
+
 	</modules>
 
 	<distributionManagement>
