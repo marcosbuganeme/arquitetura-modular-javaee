@@ -38,7 +38,7 @@ import br.com.codetisolutions.arquitetura.validacao.Validacao;
  * @version 1.0.0
  */
 @SuppressWarnings("unchecked")
-public class UtilValidacao<E extends Entidade> {
+public final class UtilValidacao<E extends Entidade> {
 
 	/**
 	 * Responsável pela criação de novas instâncias desta classe.

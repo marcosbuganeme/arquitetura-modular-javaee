@@ -26,7 +26,7 @@ import java.util.Map;
  * @version 1.0.0
  */
 @SuppressWarnings("unchecked")
-public class UtilObjeto {
+public final class UtilObjeto {
 
 	/**
 	 * Responsável pela criação de novas instâncias desta classe.

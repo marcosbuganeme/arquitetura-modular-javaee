@@ -24,7 +24,7 @@ import java.util.StringTokenizer;
  *
  * @version 1.0.0
  */
-public class UtilString {
+public final class UtilString {
 
 	/** Constante STRING_VAZIA. */
 	public static final String STRING_VAZIA = "";

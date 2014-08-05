@@ -25,7 +25,7 @@ import java.util.List;
  *
  * @version 1.0.0
  */
-public class UtilColecao {
+public final class UtilColecao {
 
 	/**
 	 * Responsável pela criação de novas instâncias desta classe.
