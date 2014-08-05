@@ -1,4 +1,4 @@
-package br.com.codetisolutions.apresentacao.jsf;
+package br.com.codetisolutions.arquitetura.jsf.apresentacao;
 
 import java.io.Serializable;
 
@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  * </p>
  *
  * <p>
- * <b>Descrição:</b>
+ * <b>Descrição:</b> Classe delegada de <code>ControllerJSF</code>.
  * </p>
  *
  * Data de criação: 04/08/2014

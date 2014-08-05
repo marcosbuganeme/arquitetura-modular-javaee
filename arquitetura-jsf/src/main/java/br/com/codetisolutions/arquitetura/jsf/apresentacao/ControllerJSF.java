@@ -1,4 +1,4 @@
-package br.com.codetisolutions.apresentacao.jsf;
+package br.com.codetisolutions.arquitetura.jsf.apresentacao;
 
 import java.io.Serializable;
 import java.util.logging.Logger;
@@ -21,7 +21,7 @@ import br.com.codetisolutions.arquitetura.apresentacao.Controller;
  * </p>
  *
  * <p>
- * <b>Descrição:</b>
+ * <b>Descrição:</b> Classe abstrata <code>Controller</code> vinculada a tecnologia <b>JSF</b>
  * </p>
  *
  * Data de criação: 04/08/2014

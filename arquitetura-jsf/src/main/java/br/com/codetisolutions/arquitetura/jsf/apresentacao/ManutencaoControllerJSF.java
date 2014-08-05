@@ -1,4 +1,4 @@
-package br.com.codetisolutions.apresentacao.jsf;
+package br.com.codetisolutions.arquitetura.jsf.apresentacao;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

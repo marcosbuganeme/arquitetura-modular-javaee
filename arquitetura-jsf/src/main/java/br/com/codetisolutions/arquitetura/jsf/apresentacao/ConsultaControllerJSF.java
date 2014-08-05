@@ -1,4 +1,4 @@
-package br.com.codetisolutions.apresentacao.jsf;
+package br.com.codetisolutions.arquitetura.jsf.apresentacao;
 
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletRequest;

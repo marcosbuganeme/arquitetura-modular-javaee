@@ -1,4 +1,4 @@
-package br.com.codetisolutions.apresentacao.jsf;
+package br.com.codetisolutions.arquitetura.jsf.converters;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
