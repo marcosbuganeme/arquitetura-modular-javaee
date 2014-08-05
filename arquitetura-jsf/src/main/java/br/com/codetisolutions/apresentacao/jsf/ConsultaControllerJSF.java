@@ -32,7 +32,7 @@ import br.com.codetisolutions.arquitetura.servico.Service;
  *
  * @version 1.0.0
  */
-public class ConsultaControllerJSF<E extends Entidade> extends ConsultaController<E> {
+public abstract class ConsultaControllerJSF<E extends Entidade> extends ConsultaController<E> {
 
 	/** Atributo baseControllerJSF. */
 	private ControllerBaseJSF controllerBaseJSF;
@@ -63,12 +63,10 @@ public class ConsultaControllerJSF<E extends Entidade> extends ConsultaControlle
 	}
 
 	/**
-	 * Descrição Padrão: <br>
-	 * <br>
+	 * Método responsável por inicializar os dados de um controlador.
 	 *
-	 * {@inheritDoc}
+	 * @author marcosbuganeme
 	 *
-	 * @see arquitetura.apresentacao.Controller#iniciarDados()
 	 */
 	public void iniciarDados() {
 
@@ -149,7 +147,7 @@ public class ConsultaControllerJSF<E extends Entidade> extends ConsultaControlle
 	 * @see arquitetura.apresentacao.Controller#exibirMensagemNaTela(java.lang.String[])
 	 */
 	@Override
-	public void exibirMensagemNaTela(String... mensagens) {
+	public void exibirMensagemNaTela(final String... mensagens) {
 
 		this.getControllerBaseJSF().exibirMensagemNaTela(mensagens);
 	}

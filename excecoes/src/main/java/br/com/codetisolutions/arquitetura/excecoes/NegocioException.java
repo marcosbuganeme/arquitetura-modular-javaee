@@ -96,4 +96,5 @@ public class NegocioException extends RuntimeException {
 
 		return this.argumentos;
 	}
+
 }

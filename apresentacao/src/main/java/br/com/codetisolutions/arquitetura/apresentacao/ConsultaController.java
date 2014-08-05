@@ -33,24 +33,6 @@ import br.com.codetisolutions.arquitetura.servico.Service;
 public abstract class ConsultaController<E extends Entidade> extends Controller {
 
 	/**
-	 * Método responsável por capturar o valor do atributo <b>formulario</b>.
-	 *
-	 * @author marcosbuganeme
-	 *
-	 * @return <i>o valor do atributo formulario</i>.
-	 */
-	public abstract Formulario<E> getFormulario();
-
-	/**
-	 * Método responsável por capturar o valor do atributo <b>service</b>.
-	 *
-	 * @author marcosbuganeme
-	 *
-	 * @return <i>o valor do atributo service</i>.
-	 */
-	public abstract Service<E, ? extends BO<E>> getService();
-
-	/**
 	 * Método responsável por abrir a página detalhar de um caso de uso.
 	 *
 	 * @author marcosbuganeme
@@ -157,4 +139,23 @@ public abstract class ConsultaController<E extends Entidade> extends Controller 
 
 		return entidade.getIdentificador();
 	}
+
+	/**
+	 * Método responsável por capturar o valor do atributo <b>formulario</b>.
+	 *
+	 * @author marcosbuganeme
+	 *
+	 * @return <i>o valor do atributo formulario</i>.
+	 */
+	public abstract Formulario<E> getFormulario();
+
+	/**
+	 * Método responsável por capturar o valor do atributo <b>service</b>.
+	 *
+	 * @author marcosbuganeme
+	 *
+	 * @return <i>o valor do atributo service</i>.
+	 */
+	public abstract Service<E, ? extends BO<E>> getService();
+
 }

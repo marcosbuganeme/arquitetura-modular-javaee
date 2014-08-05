@@ -97,4 +97,5 @@ public class ValidacaoException extends NegocioException {
 
 		return this.argumentos;
 	}
+
 }
