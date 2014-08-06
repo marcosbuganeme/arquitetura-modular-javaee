@@ -23,7 +23,7 @@ import br.com.codetisolutions.arquitetura.persistencia.DAO;
  * </p>
  *
  * <p>
- * <b>Descrição:</b>
+ * <b>Descrição:</b> Conversor de objetos para utilização de combosBox com tecnologia <b>JSF</b>.
  * </p>
  *
  * Data de criação: 05/08/2014
@@ -94,7 +94,6 @@ public class ComboBoxConverter<E extends Entidade, D extends DAO<E>> implements 
 	 */
 	@Override
 	public String getAsString(final FacesContext context, final UIComponent componente, final Object objeto) throws ConverterException {
-
 
 		return null;
 	}
