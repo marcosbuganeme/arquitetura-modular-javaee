@@ -112,7 +112,7 @@ public abstract class ManutencaoControllerJSF<E extends Entidade> extends Manute
 
 		} catch (final Exception exception) {
 
-			Logger.getLogger("***** ERRO ").info(this.getClass().getSimpleName() + " :>:> MOTIVO :>:> " + exception.getMessage() + " *****");
+			Logger.getLogger("***** ERRO NA CLASSE ").info(this.getClass().getSimpleName() + " :>:> MOTIVO :>:> " + exception.getMessage() + " *****");
 		}
 
 		return this.getNavigationAbreIncluir();
