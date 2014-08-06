@@ -432,4 +432,25 @@ public final class UtilString {
 
 	}
 
+	/**
+	 * Método responsável por verificar o tamanho da <code>String</code>.
+	 *
+	 * @author marcosbuganeme
+	 *
+	 * @param string
+	 *            - stirng que será medida.
+	 * 
+	 * @return <i>tamanho da string</i>.
+	 */
+	public static int getTamanho(final String string) {
+
+		int tamanhoString = 0;
+
+		if (!UtilString.isVazio(string)) {
+
+			tamanhoString = string.length();
+		}
+
+		return tamanhoString;
+	}
 }

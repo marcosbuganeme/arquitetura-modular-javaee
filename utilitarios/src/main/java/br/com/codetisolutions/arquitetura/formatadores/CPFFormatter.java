@@ -1,6 +1,6 @@
 package br.com.codetisolutions.arquitetura.formatadores;
 
-import br.com.codetisolutions.arquitetura.pattern.FormatacaoPattern;
+import br.com.codetisolutions.arquitetura.pattern.PatternFormatacao;
 
 /**
  * <p>
@@ -35,7 +35,7 @@ public class CPFFormatter extends Formatter {
 	}
 
 	/**
-	 * Método responsável por formatar um cpf parametrizado.
+	 * Método responsável por formatar o CPF parametrizado de acordo com o pattern definido para CPF. Veja a classe <code>FormatacaoPattern</code>.
 	 *
 	 * @author marcosbuganeme
 	 *
@@ -44,13 +44,13 @@ public class CPFFormatter extends Formatter {
 	 * 
 	 * @return <i>cpf formatado</i>.
 	 */
-	public static String formatarCPF(final String cpf) {
+	public static String formatarStringCPF(final String cpf) {
 
 		String resultadoFormatacaoCPF = null;
 
 		if (CPFFormatter.isCPFValido(cpf)) {
 
-			resultadoFormatacaoCPF = Formatter.formatarString(cpf, FormatacaoPattern.getCPF());
+			resultadoFormatacaoCPF = Formatter.formatarString(cpf, PatternFormatacao.getCPF());
 		}
 
 		return resultadoFormatacaoCPF;

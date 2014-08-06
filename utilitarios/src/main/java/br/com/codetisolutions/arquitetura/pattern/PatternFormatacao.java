@@ -19,12 +19,12 @@ package br.com.codetisolutions.arquitetura.pattern;
  *
  * @version 1.0.0
  */
-public final class FormatacaoPattern {
+public final class PatternFormatacao {
 
 	/**
 	 * Responsável pela criação de novas instâncias desta classe.
 	 */
-	private FormatacaoPattern() {
+	private PatternFormatacao() {
 
 		super();
 	}

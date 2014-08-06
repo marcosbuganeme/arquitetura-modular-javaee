@@ -1,6 +1,6 @@
 package br.com.codetisolutions.arquitetura.formatadores;
 
-import br.com.codetisolutions.arquitetura.pattern.FormatacaoPattern;
+import br.com.codetisolutions.arquitetura.pattern.PatternFormatacao;
 
 /**
  * <p>
@@ -35,7 +35,7 @@ public class CEPFormatter extends Formatter {
 	}
 
 	/**
-	 * Método responsável por formatar o cep de acordo com o pattern passado.
+	 * Método responsável por formatar o CEP parametrizado de acordo com o pattern definido para CEP. Veja a classe <code>FormatacaoPattern</code>.
 	 *
 	 * @author marcosbuganeme
 	 *
@@ -44,13 +44,13 @@ public class CEPFormatter extends Formatter {
 	 * 
 	 * @return <i>cep formatado</i>.
 	 */
-	public static String formatarCep(final String cep) {
+	public static String formatarStringCep(final String cep) {
 
 		String resultadoFormatacaoCep = null;
 
 		if (CEPFormatter.isCepValido(cep)) {
 
-			resultadoFormatacaoCep = Formatter.formatarString(cep, FormatacaoPattern.getCEP());
+			resultadoFormatacaoCep = Formatter.formatarString(cep, PatternFormatacao.getCEP());
 		}
 
 		return resultadoFormatacaoCep;
