@@ -53,6 +53,16 @@
 
 		<dependency>
 
+			<groupId>br.com.4codetisolutions.arquitetura</groupId>
+
+			<artifactId>persistencia</artifactId>
+
+			<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
+
+		<dependency>
+
 			<groupId>com.sun.faces</groupId>
 
 			<artifactId>jsf-api</artifactId>

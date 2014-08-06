@@ -4,6 +4,9 @@ import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 
+import br.com.codetisolutions.arquitetura.dominio.Entidade;
+import br.com.codetisolutions.arquitetura.persistencia.DAO;
+
 /**
  * <p>
  * <b>Organização:</b> 4code TI Solutions
@@ -20,10 +23,12 @@ import javax.faces.convert.Converter;
  * Data de criação: 05/08/2014
  *
  * @author marcosbuganeme
+ * @param <E>
+ * @param <D>
  *
  * @version 1.0.0
  */
-public class ComboBoxConverter implements Converter {
+public class ComboBoxConverter<E extends Entidade, D extends DAO<E>> implements Converter {
 
 	/**
 	 * Descrição Padrão: <br>
