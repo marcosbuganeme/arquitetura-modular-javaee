@@ -1,5 +1,8 @@
 package br.com.codetisolutions.arquitetura.formatadores;
 
+import br.com.codetisolutions.arquitetura.pattern.FormatacaoPattern;
+import br.com.codetisolutions.arquitetura.utilitarios.UtilString;
+
 /**
  * <p>
  * <b>Organização:</b> 4code TI Solutions
@@ -35,7 +38,7 @@ public final class CartaoCreditoFormatter extends Formatter {
 	 * @author marcosbuganeme
 	 *
 	 * @param numeroCartao
-	 *            - string que representa o número do cartão de crédito.
+	 *            - String que representa o número do cartão de crédito.
 	 * 
 	 * @return <i>cartão formatado</i>
 	 */
@@ -45,10 +48,27 @@ public final class CartaoCreditoFormatter extends Formatter {
 
 		if (numeroCartao != null && !"".equals(numeroCartao)) {
 
-			final String patternFormatacaoCartao;
+			final String patternFormatacaoCartao = FormatacaoPattern.getCartaoCredito();
+
+			resultadoFormatarCartao = Formatter.formatarString(numeroCartao, patternFormatacaoCartao);
 
 		}
 
 		return resultadoFormatarCartao;
+	}
+
+	/**
+	 * Método responsável por formatar o cartão de crédito.
+	 *
+	 * @author marcosbuganeme
+	 *
+	 * @param numeroCartao
+	 *            - Number que representa o número do cartão de crédito.
+	 * 
+	 * @return <i>cartão formatado</i>
+	 */
+	public static String formatarCartaoCredito(final Number numeroCartao) {
+
+		return CartaoCreditoFormatter.formatarCartaoCredito(UtilString.toString(numeroCartao));
 	}
 }
