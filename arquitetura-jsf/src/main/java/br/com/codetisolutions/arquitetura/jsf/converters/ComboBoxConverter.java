@@ -25,14 +25,30 @@ import javax.faces.convert.Converter;
  */
 public class ComboBoxConverter implements Converter {
 
+	/**
+	 * Descrição Padrão: <br>
+	 * <br>
+	 *
+	 * {@inheritDoc}
+	 *
+	 * @see javax.faces.convert.Converter#getAsObject(javax.faces.context.FacesContext, javax.faces.component.UIComponent, java.lang.String)
+	 */
 	@Override
-	public Object getAsObject(FacesContext arg0, UIComponent arg1, String arg2) {
+	public Object getAsObject(final FacesContext context, final UIComponent componente, final String value) {
 
 		return null;
 	}
 
+	/**
+	 * Descrição Padrão: <br>
+	 * <br>
+	 *
+	 * {@inheritDoc}
+	 *
+	 * @see javax.faces.convert.Converter#getAsString(javax.faces.context.FacesContext, javax.faces.component.UIComponent, java.lang.Object)
+	 */
 	@Override
-	public String getAsString(FacesContext arg0, UIComponent arg1, Object arg2) {
+	public String getAsString(final FacesContext context, final UIComponent componente, final Object objeto) {
 
 		return null;
 	}
