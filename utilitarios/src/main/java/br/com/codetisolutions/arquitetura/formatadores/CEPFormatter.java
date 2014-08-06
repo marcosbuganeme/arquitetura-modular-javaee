@@ -1,6 +1,5 @@
 package br.com.codetisolutions.arquitetura.formatadores;
 
-
 /**
  * <p>
  * <b>Organização:</b> 4code TI Solutions
