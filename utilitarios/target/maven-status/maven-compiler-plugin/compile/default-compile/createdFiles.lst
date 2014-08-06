@@ -1,4 +1,11 @@
+br\com\codetisolutions\arquitetura\pattern\PatternFormatacao.class
 br\com\codetisolutions\arquitetura\utilitarios\UtilValidacao.class
+br\com\codetisolutions\arquitetura\formatadores\CNPJFormatter.class
 br\com\codetisolutions\arquitetura\utilitarios\UtilString.class
-br\com\codetisolutions\arquitetura\utilitarios\UtilObjeto.class
+br\com\codetisolutions\arquitetura\formatadores\TelefoneFormatter.class
+br\com\codetisolutions\arquitetura\formatadores\CEPFormatter.class
+br\com\codetisolutions\arquitetura\formatadores\CPFFormatter.class
 br\com\codetisolutions\arquitetura\utilitarios\UtilColecao.class
+br\com\codetisolutions\arquitetura\formatadores\Formatter.class
+br\com\codetisolutions\arquitetura\formatadores\CartaoCreditoFormatter.class
+br\com\codetisolutions\arquitetura\utilitarios\UtilObjeto.class
