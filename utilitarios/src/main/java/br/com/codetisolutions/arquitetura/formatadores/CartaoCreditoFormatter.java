@@ -41,6 +41,14 @@ public final class CartaoCreditoFormatter extends Formatter {
 	 */
 	public static String formatarCartaoCredito(final String numeroCartao) {
 
-		return null;
+		String resultadoFormatarCartao = null;
+
+		if (numeroCartao != null && !"".equals(numeroCartao)) {
+
+			final String patternFormatacaoCartao;
+
+		}
+
+		return resultadoFormatarCartao;
 	}
 }
