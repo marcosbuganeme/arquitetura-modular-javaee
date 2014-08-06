@@ -1,5 +1,8 @@
-br\com\codetisolutions\apresentacao\jsf\ManutencaoControllerJSF.class
-br\com\codetisolutions\apresentacao\jsf\ControllerBaseJSF.class
-br\com\codetisolutions\apresentacao\jsf\ConsultaControllerJSF.class
-br\com\codetisolutions\apresentacao\jsf\ManutencaoControllerJSF$1.class
-br\com\codetisolutions\apresentacao\jsf\ControllerJSF.class
+br\com\codetisolutions\arquitetura\jsf\apresentacao\ControllerBaseJSF.class
+br\com\codetisolutions\arquitetura\jsf\apresentacao\ConsultaControllerJSF.class
+br\com\codetisolutions\arquitetura\jsf\apresentacao\ManutencaoControllerJSF.class
+br\com\codetisolutions\arquitetura\jsf\apresentacao\ControllerJSF.class
+br\com\codetisolutions\arquitetura\jsf\converters\BigDecimalConverter.class
+br\com\codetisolutions\arquitetura\jsf\converters\DateConverter.class
+br\com\codetisolutions\arquitetura\jsf\apresentacao\ManutencaoControllerJSF$1.class
+br\com\codetisolutions\arquitetura\jsf\converters\ComboBoxConverter.class
