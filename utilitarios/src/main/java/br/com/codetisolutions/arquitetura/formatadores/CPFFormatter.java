@@ -1,5 +1,7 @@
 package br.com.codetisolutions.arquitetura.formatadores;
 
+import br.com.codetisolutions.arquitetura.pattern.FormatacaoPattern;
+
 /**
  * <p>
  * <b>Organização:</b> 4code TI Solutions
@@ -10,7 +12,7 @@ package br.com.codetisolutions.arquitetura.formatadores;
  * </p>
  *
  * <p>
- * <b>Descrição:</b>
+ * <b>Descrição:</b> Classe responsável pela formatação de CPFS.
  * </p>
  *
  * Data de criação: 06/08/2014
@@ -19,6 +21,53 @@ package br.com.codetisolutions.arquitetura.formatadores;
  *
  * @version 1.0.0
  */
-public class CPFFormatter {
+public class CPFFormatter extends Formatter {
 
+	/** Atributo TAMANHO_CPF. */
+	private static final int TAMANHO_CPF = 11;
+
+	/**
+	 * Responsável pela criação de novas instâncias desta classe.
+	 */
+	public CPFFormatter() {
+
+		super();
+	}
+
+	/**
+	 * Método responsável por formatar um cpf parametrizado.
+	 *
+	 * @author marcosbuganeme
+	 *
+	 * @param cpf
+	 *            - cpf que será formatado.
+	 * 
+	 * @return <i>cpf formatado</i>.
+	 */
+	public static String formatarCPF(final String cpf) {
+
+		String resultadoFormatacaoCPF = null;
+
+		if (CPFFormatter.isCPFValido(cpf)) {
+
+			resultadoFormatacaoCPF = Formatter.formatarString(cpf, FormatacaoPattern.getCPF());
+		}
+
+		return resultadoFormatacaoCPF;
+	}
+
+	/**
+	 * Método responsável por validar um cpf.
+	 *
+	 * @author marcosbuganeme
+	 *
+	 * @param cpf
+	 *            - cpf que será validado.
+	 * 
+	 * @return <i>cpf validado</i>.
+	 */
+	public static boolean isCPFValido(final String cpf) {
+
+		return cpf != null && cpf.length() == CPFFormatter.TAMANHO_CPF;
+	}
 }
