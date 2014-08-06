@@ -95,6 +95,11 @@ public class ComboBoxConverter<E extends Entidade, D extends DAO<E>> implements 
 	@Override
 	public String getAsString(final FacesContext context, final UIComponent componente, final Object objeto) throws ConverterException {
 
+		if (objeto != null && ( (E) objeto ).getIdentificador() != null) {
+
+			return ( (E) objeto ).getIdentificador().toString();
+		}
+
 		return null;
 	}
 
