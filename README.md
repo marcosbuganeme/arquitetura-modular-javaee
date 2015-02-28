@@ -2,7 +2,7 @@ Arquitetura modular em java
 
 ================
 
-Desenvolvedor/Arquiteto: Marcos Silva olavo Buganeme
+Desenvolvedor/Arquiteto: Marcos Olavo Silva Buganeme
 
 email: marcos.after @ gmail.com
 

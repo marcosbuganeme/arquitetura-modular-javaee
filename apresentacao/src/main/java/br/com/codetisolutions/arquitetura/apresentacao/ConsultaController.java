@@ -38,7 +38,7 @@ public abstract class ConsultaController<E extends Entidade> extends Controller 
 	 * @author marcosbuganeme
 	 *
 	 * @return <i>página detalhar de um caso de uso</i>. <br>
-	 *         Exemplo de retorno do método --> EmitirRelatorioController + "/detalhar".
+	 *         Exemplo de retorno do método --> ManterUsuarioController + "/detalhar".
 	 */
 	public abstract String abreDetalhar();
 
